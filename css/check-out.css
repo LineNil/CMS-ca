@@ -1,0 +1,24 @@
+/*Check out*/
+
+.flex-text {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 70px;
+}
+
+.cta-checkout{
+  margin: 20px auto;
+}
+
+/*Checkout form*/
+
+* {
+  box-sizing: border-box;
+}
+
+.product-img-checkout{
+  display: none;
+}
+
+
+

@@ -1,0 +1,35 @@
+/*Contact*/
+
+textarea{
+  height: 110px;
+  width: 100%;
+  max-width: none;
+  padding: 41px;
+}
+
+.message{
+padding-top: 10px;
+}
+
+.half-width p{
+  margin: 0px;
+}
+
+.contact-info{
+margin-top: 40px;
+margin-left: 8px;
+}
+
+.form-contact {
+padding-top: 10px;
+display: inline-block;
+margin-left: auto;
+margin-right: auto;
+text-align: left;
+}
+
+.form-wrapper-contact {
+display: block;
+text-align: center;
+}
+

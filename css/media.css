@@ -1,0 +1,154 @@
+/*media*/
+
+@media (min-width:400px){
+  .categori-list img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
+
+@media (min-width:700px) {
+
+  .flex-item{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+  }
+
+  body{
+    min-height: auto
+  }
+
+  .logo img{
+    height: 100px;
+  }
+
+  .fa-solid{
+    font-size: 2.2em;
+  }
+
+  .products {
+    display: inline-block;
+    width: 30%;
+  }
+
+  .products-img{
+    max-width: 400px;
+  }
+
+  .item{
+    display: inline-block;
+    margin-left: 0px;
+    padding-left: 10px;
+    text-align: left;
+  }
+
+  .half-width,
+  .full-width{
+    padding-top: 30px;
+}
+
+  /*index*/
+  .categori-list{
+    display: flex;
+    justify-content: space-between;}
+
+  .categori-list img{
+    display: flex;
+    padding: 20px;
+    width: 80%;
+    }
+
+  .cta-categorie{
+    display: block;
+    padding: 10px 25px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    }
+
+  .welcome{
+    min-height: 330px;
+    }
+
+  /*products*/
+
+  .product-header{
+    margin: 0px;
+    font-size: 5em;
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 100vh;
+  }
+
+  /*product*/
+  .flex-item-text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0px;
+    width: 50%;
+  }
+
+  /*about*/
+
+  .form-wrapper-hight {
+    min-height: 120vh;
+  }
+
+  /*contact*/
+
+  .contact {
+    font-size: 1.4em;
+  }
+
+/*checkout*/
+
+.form-checkout {
+  width: 50%;
+  font-size: 1.4em;
+  padding: 0px;
+}
+
+.flex-text > *{
+  font-size: 1.4em;
+  padding: 0px 40px;
+}
+
+.cta-checkout {
+  margin-top: 35px;
+}
+
+.product-img-checkout {
+  max-width: 200px;
+  padding-bottom: 70px;
+  padding-top: 30px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*checkout-succsess*/
+
+.cta-succsess {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 32%;
+  font-size: 1.4em;
+}
+
+.fa-circle-check {
+  font-size: 20em;
+}
+
+.con-g {
+  font-size: 2em;
+}
+
+.order{
+  font-size: 0.8em;
+}
+}

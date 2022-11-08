@@ -1,0 +1,33 @@
+/*About*/
+
+.about{
+  margin: 30px 8px;
+}
+
+.about-img{
+  display: flex;
+  width: 100%;
+}
+
+.about-img-small{
+  width: 52%;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.about-img-big {
+  width: 45%;
+  padding-left: 8px;
+}
+
+.rainydays-tag {
+  margin: 0px 0px 45px;
+  padding-left: 8px;
+}
+
+
+.about-text {
+  font-size: 1.4em;
+  width: 100%;
+  text-align: center;
+}

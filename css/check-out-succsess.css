@@ -1,0 +1,27 @@
+ /*checkout-succsess*/
+ 
+ .fa-circle-check{
+  position: static;
+  text-align: center;
+  width: 100%;
+  font-size: 10em;
+  color: RGB(78,203,113);
+}
+
+.succsess-text{
+  text-align: center;
+  text-align: center;
+  font-size: 2em;
+}
+
+.cta-succsess{
+  margin: 45px 90px 0px;
+}
+
+.order {
+  font-size: 15px;
+}
+
+.con-g{
+  margin-bottom: 15px;
+}

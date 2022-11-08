@@ -1,0 +1,213 @@
+
+
+header,
+main
+{
+  font-family: 'Libre Baskerville', serif;
+}
+
+.form-wrapper-hight {
+  min-height: 75vh;
+} 
+
+.cta {
+  background-color: rgb(76, 95, 85);
+  color: white;
+  position: relative;
+  display: block;
+  padding: 6px 20px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: 'Libre Baskerville', serif;
+  margin: 10px auto 40px;
+  }
+
+  .price{
+    color: rgb(125, 125, 125);
+  }
+
+  .line{
+    height: 1px;
+    background: black;
+  }
+
+img{
+  width: 100%;
+  height: auto;
+  position: relative;
+  position: static;
+}
+
+.products-img{
+  object-fit: contain;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.top-text{
+  margin-top: 50px;
+  margin-bottom: 25px;
+  padding: 30px 0px;
+  background-color: rgb(226, 226, 226);
+  text-align: center;
+}
+
+.item{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.products{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*Top bar*/
+
+body{
+  margin: 0px;
+  min-height: 100vh;
+}
+
+header{
+  position: relative;
+  display: flex;
+}
+
+.fa-solid{
+  font-weight: 900;
+  padding-left: 15px;
+  color: rgb(76, 95, 85);
+  margin-left: 20px;
+  font-size: 1.2em;
+  padding: 17px 0px;
+}
+
+.fa-bars{
+  font-size: 1.2em;
+}
+
+.logo{
+    padding: 10px 0px 10px 30px;
+  }
+
+
+.logo img{
+  width: 90x;
+  height: 45px;
+}
+
+
+.hamburger {
+  position: absolute;
+  left: 330px;
+  padding: 20px 20px 0px 0px;
+}
+
+#hamburger-menu:checked~nav{
+  display: block;
+}
+
+nav{
+  position: absolute;
+  background: rgb(76, 95, 85);
+  left: 245px;
+  top: 50px;
+}
+
+nav, #hamburger-menu{
+  display: none;
+}
+
+nav a{
+  display: block;
+  color: white;
+  padding: 10px 20px;
+
+}
+
+nav li{
+  display: inline-block;
+}
+
+nav ul{
+  padding: 0px;
+  display: grid;
+}
+
+
+/*links*/
+
+a{
+  text-decoration: none;
+}
+
+.active{
+  text-decoration: underline;
+}
+
+
+/*footer*/
+
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  padding: 20px 0px ;
+  width: 100%;
+}
+
+.copyright{
+  padding-top: 7px;
+  margin: 0px;
+}
+
+.pay-methode {
+  font-size: 2em;
+}
+
+/*forms*/
+
+.half-width{
+  flex: 0 0 auto;
+  width: 50%;
+  padding-top: 10px;
+}
+
+
+.full-width{
+  flex: 0 0 auto;
+  width: 100%;
+  padding-top: 10px;
+}
+
+
+
+form{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+form > * {
+  max-width: 100%;
+  padding: 0 8px;
+}
+
+input{
+  border-color: rgb(210, 210, 210);
+  border-radius: 5px;
+  border-width: thin;
+  padding: 4px;
+  display: block;
+  width: 100%;
+}

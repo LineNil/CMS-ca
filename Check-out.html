@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Practical all-weather jackets for you and your family" />
+    <title>Raidy Days | Checkout</title>
+    <link href="css/check-out.css" rel="stylesheet" />
+    <link href="css/global.css" rel="stylesheet"/>
+    <link href="css/media.css" rel="stylesheet"/>
+    <link href="https://fontawesome.com/icons/bars?s=solid&f=classic" rel="hamburger-menu"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/681646004f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <label class="hamburger" for="hamburger-menu"><i class="fas fa-bars"></i></label>
+      <input type="checkbox" id="hamburger-menu" />
+      <a href="index.html" class="logo">
+      <img src="images/RainyDays_Logo.png" alt="Logo for RainyDays" />
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="Products.html"class="active">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div 
+      class="line">
+    </div>
+    <div>
+      <a href="index.html"> <i class="fa-solid fa-arrow-left arrow"></i></a>
+    </div>
+    <div class="form-wrapper-hight">
+      <h1 class="top-text">CheckOut</h1>
+    <main class="flex-item">
+      <section class="flex-checkout">
+        <img class="product-img-checkout" src="images/RainyDays_Jacket6.png" alt="Soft shell jacket">
+        <div class="flex-text">
+        <div> 
+          <p>Soft</p>
+          <p class="price">799 NOK</p>
+        </div>
+        <div>
+          <p>Shipping</p>
+          <p class="price">FREE</p>
+        </div>
+        <div>
+          <p>Total</p>
+          <p class="price">799 NOK</p>
+        </div>
+        </div>
+      </section>
+      <div 
+        class="line">
+      </div>
+      <form class="form-checkout flex-item" method="POST">
+        <div class="full-width">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Ola Nordmann" required/>
+        </div>
+        <div class="full-width">  
+          <label for="address">Address</label>
+          <input type="text" id="address" name="address" placeholder="Fakeroad nr 9" required/>
+        </div>
+        <div class="half-width">
+          <label for="city">City</label>
+          <input type="text" id="city" name="city" placeholder="Oslo" required/>
+        </div> 
+        <div class="half-width">
+          <label for="postal-code">Postal-code</label>
+          <input type="text" id="postal-code" name="postal-code" placeholder="0000" required/>
+        </div>
+        <div class="full-width"> 
+          <label for="card">Card Number</label>
+          <input type="text" id="card" name="card"  placeholder="1234 5678 9123 4567" required/>
+        </div>
+        <div class="half-width">
+          <label for="expiration-date">MM/YY</label>
+          <input type="text" id="expiration-date" name="expiration-date" placeholder="10/11" required/>
+        </div>
+        <div class="half-width">
+          <label for="cvc">CVC</label>
+          <input type="text" id="cvc" name="cvc" placeholder="000" required/>
+        </div>
+        <div>
+          <a href="Check-out-succsess.html" class="cta cta-checkout">Purchase</a>
+        </div>
+      </form>
+
+        </div>
+    </main>
+      <footer>
+        <p class="copyright">Copyright &copy;</p>
+        <div class="pay-methode">
+          <i class="fa-brands fa-cc-paypal"></i>
+          <i class="fa-brands fa-cc-apple-pay"></i>
+          <i class="fa-brands fa-cc-visa"></i>
+        </div>
+      </footer>
+  </body>    
+
