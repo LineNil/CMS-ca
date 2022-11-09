@@ -3,7 +3,7 @@
 
 .product-header{
   background-image: url(../images/womens.png);
-  background-size: contain;
+  background-size: cover;
   min-height: 16vh;
   position: static;
   background-repeat: no-repeat;
