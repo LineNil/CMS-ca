@@ -38,6 +38,14 @@ img{
   position: static;
 }
 
+.logo-img{
+  width: 140px;
+  height: auto;
+  position: relative;
+  position: static;
+  margin: 0px auto;
+  }
+
 .products-img{
   object-fit: contain;
   max-width: 250px;
@@ -80,6 +88,7 @@ header{
   position: relative;
   display: flex;
   border-bottom: 1px solid black;
+  flex-direction: column
 }
 
 .fa-solid{
@@ -97,12 +106,12 @@ header{
 
 .logo{
     padding: 10px 0px 10px 30px;
+    text-align: center;
   }
 
 
 .logo img{
   width: 90x;
-  height: 45px;
 }
 
 
@@ -119,8 +128,7 @@ header{
 nav{
   position: absolute;
   background: rgb(76, 95, 85);
-  left: 245px;
-  top: 50px;
+  justify-content: center;
 }
 
 nav, #hamburger-menu{
