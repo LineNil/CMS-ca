@@ -17,3 +17,7 @@ Peer feedback
 
 inspirasjon:
 the Guitar website (in the modules)
+
+Netlify: https://comfy-vacherin-85b853.netlify.app/
+
+github: https://github.com/LineNil/html-css-ca
