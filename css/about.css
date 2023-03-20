@@ -1,7 +1,7 @@
 /*About*/
 
 .about{
-  margin: 30px 8px;
+  margin: 0px 20px;
 }
 
 .about-img{
@@ -16,7 +16,7 @@
 }
 
 .about-img-big {
-  width: 45%;
+  width: 52%;
   padding-left: 8px;
 }
 
@@ -27,7 +27,8 @@
 
 
 .about-text {
-  font-size: 1.4em;
+  font-size: 1em;
   width: 100%;
   text-align: center;
+  line-height: 1.7;
 }

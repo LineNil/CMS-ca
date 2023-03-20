@@ -1,9 +1,12 @@
 
 
+
+
 header,
-main
+main,
+.top-text
 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 .form-wrapper-hight {
@@ -11,16 +14,28 @@ main
 } 
 
 .cta {
-  background-color: rgb(76, 95, 85);
-  color: white;
+  background-color: rgb(255, 161, 92);
+  color: black;
   position: relative;
   display: block;
-  padding: 6px 20px;
+  padding: 15px 20px;
   text-align: center;
-  border-radius: 5px;
-  font-family: 'Libre Baskerville', serif;
+  border-radius: 12px;
+  font-family: 'Nanum Gothic', sans-serif;
   margin: 10px auto 40px;
+  border-style: none;
   }
+
+  .cta:hover{
+    background-color: #FF6D15;
+    transition: 1s;
+  }
+  
+  .cta:active{
+    background-color: rgb(76, 95, 85);
+  }
+
+
 
   .price{
     color: rgb(125, 125, 125);
@@ -46,20 +61,14 @@ img{
   margin: 0px auto;
   }
 
-.products-img{
-  object-fit: contain;
-  max-width: 250px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
+
 
 .top-text{
-  margin-top: 50px;
-  margin-bottom: 25px;
-  padding: 30px 0px;
+  margin: 0px;
+  padding: 15px 0px;
   background-color: rgb(226, 226, 226);
   text-align: center;
+  margin-top: 90px;
 }
 
 .item{
@@ -69,6 +78,7 @@ img{
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 .products{
@@ -82,22 +92,35 @@ img{
 body{
   margin: 0px;
   min-height: 100vh;
+  background-color: #f4f4f4;
 }
 
 header{
-  position: relative;
+  position: fixed;
   display: flex;
   border-bottom: 1px solid black;
-  flex-direction: column
+  flex-direction: column;
+  background-color: #f4f4f4;
+  width: 100%;
+  top: 0px;
+  z-index: 1;
 }
 
-.fa-solid{
+.fa-circle-arrow-left{
   font-weight: 900;
   padding-left: 15px;
-  color: rgb(76, 95, 85);
-  margin-left: 20px;
+  color: rgb(209, 209, 209);
+  margin: 0px 0px 0px 20px;
   font-size: 1.2em;
   padding: 17px 0px;
+}
+
+.fa-circle-arrow-left:hover{
+  color: rgb(76, 95, 85);
+}
+
+.fa-circle-arrow-left:active{
+  background-color: rgb(76, 95, 85);
 }
 
 .fa-bars{
@@ -105,14 +128,11 @@ header{
 }
 
 .logo{
-    padding: 10px 0px 10px 30px;
+    padding: 10px 0px 0px 0px;
     text-align: center;
   }
 
 
-.logo img{
-  width: 90px;
-}
 
 
 .hamburger {
@@ -121,15 +141,23 @@ header{
   padding: 20px 20px 0px 0px;
 }
 
-#hamburger-menu:checked~nav{
-  display: block;
+
+nav {
+  display: none;
+  flex-direction: column;
+  list-style-type: none;
+  background-color: #f4f4f4;
+  justify-content: center;
+  gap: 20px;
 }
 
-nav{
-  position: absolute;
-  background: rgb(76, 95, 85);
-  justify-content: center;
+#hamburger-menu:checked ~ nav {
+  display: flex;
+  width: 100%;
+  padding-bottom: 40px;
 }
+
+
 
 nav, #hamburger-menu{
   display: none;
@@ -137,13 +165,19 @@ nav, #hamburger-menu{
 
 nav a{
   display: block;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 10px 20px;
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+}
 
+nav a:hover{
+  color: rgb(76, 95, 85);
 }
 
 nav li{
   display: inline-block;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 nav ul{
@@ -156,7 +190,9 @@ nav ul{
 
 a{
   text-decoration: none;
+  color: black;
 }
+
 
 .active{
   text-decoration: underline;
@@ -170,11 +206,13 @@ footer{
   justify-content: space-evenly;
   margin: 0px;
   font-size: 20px;
-  background-color: black;
-  color: white;
-  padding: 20px 0px ;
+  background-color: #ebebeb;
+  color: black;
+  padding: 20px 0px;
   width: 100%;
+  border-top: 1px solid black;
 }
+
 
 .copyright{
   padding-top: 7px;
@@ -184,6 +222,7 @@ footer{
 .pay-methode {
   font-size: 2em;
 }
+
 
 /*forms*/
 
@@ -202,7 +241,7 @@ footer{
 
 
 
-form{
+.form-checkout{
   display: flex;
   flex-wrap: wrap;
 }

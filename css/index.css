@@ -1,5 +1,10 @@
 
+
 /*index*/
+
+main {
+  margin-top: 90px;
+}
 
 .welcome{
   background: url(../images/sale\ Image.jpg);
@@ -17,7 +22,8 @@
   text-align: center;
   font-size: 1em;
   background-color: rgba(76, 95, 85, 0.67);
-
+  margin: 0px;
+  font-family: 'Libre Baskerville', serif;
 }
 
 
@@ -30,8 +36,8 @@
 
 .cta-categorie {
   color: white;
-  background-color: rgb(76, 95, 85);
-  position: relative;
+  background-color: rgb(131, 158, 143);
+  position: inherit;
   display: block;
   padding: 10px 25px;
   text-align: center;
@@ -40,4 +46,14 @@
   margin-right: auto;
   margin-left: auto;
   width: 50%;
+}
+
+
+
+.cta-categorie:active{
+  background-color: rgb(76, 95, 85);
+}
+
+.cta-categorie:hover{
+  background-color: rgb(76, 95, 85);
 }

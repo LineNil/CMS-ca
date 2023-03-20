@@ -1,11 +1,83 @@
 /*Products*/
 
 
-.product-header{
-  background-image: url(../images/womens.png);
-  background-size: cover;
-  min-height: 16vh;
-  position: static;
-  background-repeat: no-repeat;
-  color: white;
+h1 {
+  font-size: 1em;
+  margin: 0px 0px 0px 30px;
+}
+
+.h1-products{
+  margin-top: 25px;
+}
+
+
+.fa-circle-arrow-left{
+  margin-left: 30px;
+}
+
+.header-arrow{
+  display: flex;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.jackets {
+    max-width: 100%;
+    margin: 110px 0px 35px 0px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.products img {
+  grid-column: -1/1;
+}
+
+img {
+  width: 100%;
+}
+
+.products img:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+a:hover{
+  color: rgb(76, 95, 85);
+}
+
+.a-products:active{
+  color: rgb(76, 95, 85);
+}
+
+.a-products{
+  display: grid;
+  justify-content: center;
+}
+
+
+ 
+.products h2, .products p, .products h3 {
+  grid-column: 1;
+  font-size: 0.9em;
+  margin: 5px;
+  text-align: left;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.products p{
+  color: rgb(111, 111, 111);
+  font-size: 0.9em;
+  font-weight:bold ;
+}
+
+.products h2{
+  font-size: 0.7em;
 }

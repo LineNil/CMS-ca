@@ -10,6 +10,7 @@
 
   nav ul{
     display: flex;
+    margin: 3px;
   }
   .checkbox{
     display: none;
@@ -57,7 +58,7 @@ nav a{
   .flex-item{
     display: flex;
     justify-content: space-evenly;
-    padding-top: 70px;
+    margin-bottom: 20px;
   }
 
   body{
@@ -65,25 +66,21 @@ nav a{
   }
 
 
-  .fa-solid{
+  .fa-circle-arrow-left{
     font-size: 2.2em;
   }
 
   .products {
     display: inline-block;
-    width: 30%;
+    width: 75%;
+    margin-top: 25px;
   }
 
   .products-img{
     max-width: 400px;
   }
 
-  .item{
-    display: inline-block;
-    margin-left: 0px;
-    padding-left: 10px;
-    text-align: left;
-  }
+
 
   .half-width,
   .full-width{
@@ -91,6 +88,11 @@ nav a{
 }
 
   /*index*/
+
+  .main-index {
+    margin-top: 134px;
+  }
+
   .categori-list{
     display: flex;
     justify-content: space-between;}
@@ -117,17 +119,23 @@ nav a{
     font-size: 2em;
   }
 
+  .cta-categorie:hover{
+    background-color: rgb(76, 95, 85);
+    transition: 1s;
+  }
+
   /*products*/
 
   header{
     justify-content: center;
   }
 
-  .product-header{
-    margin: 0px;
-    font-size: 5em;
-    padding-top: 30px;
-    width: 100%;
+  .product-list {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .jackets{
+    margin-top: 200px;
   }
 
   /*product*/
@@ -136,13 +144,51 @@ nav a{
     flex-direction: column;
     text-align: left;
     padding: 0px;
-    width: 50%;
+    width: 30%;
   }
+
+  .item img{
+    width: 35%;
+  }
+
+  .item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    margin: 70px;
+  }
+
+  .hight-item{
+    margin-top: 135px;
+  }
+
+  .product-info{
+    padding: 0px 230px 10px;
+  }
+
 
   /*about*/
 
   .form-wrapper-hight {
     min-height: 120vh;
+  }
+
+  .about{
+    display: flex;
+    margin-top: 100px;
+  }
+
+  .about-text{
+    width: 50%;
+  }
+
+  .about-img{
+    width: 50%;
+  }
+
+  .about-img-big{
+    width: 49%;
   }
 
   /*contact*/
@@ -151,44 +197,58 @@ nav a{
     font-size: 1.4em;
   }
 
+  form button {
+    left: 33%;
+  }
+
+  .top-text{
+    margin-top: 136px;
+    font-size: 25px;
+  }
+
 /*checkout*/
+
+.top-text-checkout{
+  margin-top: 134px;
+}
 
 .form-checkout {
   width: 50%;
   font-size: 1.4em;
   padding: 0px;
+  height: 20%;
+  border-radius: 1rem;
 }
 
 .flex-text > *{
-  font-size: 1.4em;
-  padding: 0px 40px;
+  font-size: 1em;
+  padding: 15px 40px;
+
 }
 
 .cta-checkout {
   margin-top: 35px;
+  font-size: 16px;
+  padding: 15px 40px;
 }
 
-.product-img-checkout {
-  max-width: 200px;
-  padding-bottom: 70px;
-  padding-top: 30px;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
 
+
+input{
+  padding: 10px;
+}
 /*checkout-succsess*/
 
 .cta-succsess {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 32%;
-  font-size: 1.4em;
+  width: 25%;
+  font-size: 1em;
 }
 
 .fa-circle-check {
-  font-size: 20em;
+  font-size: 10em;
 }
 
 .con-g {
@@ -197,5 +257,14 @@ nav a{
 
 .order{
   font-size: 0.8em;
+}
+
+.form-wrapper-succsess {
+  margin-top: 115px;
+  margin-bottom: 60px;
+}
+
+.succsess-text {
+  font-size: 1.2em;
 }
 }

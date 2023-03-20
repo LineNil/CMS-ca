@@ -1,35 +1,83 @@
-/*Contact*/
+* {
+  box-sizing: border-box;
+}
 
-textarea{
-  height: 110px;
+body {
+  font-family: sans-serif;
+}
+
+main{
+  padding: 20px 40px;
+}
+
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+form {
+  padding: 2em;
+  background: #ebebeb;
+  border-radius: 1rem;
+}
+
+input {
   width: 100%;
-  max-width: none;
-  padding: 41px;
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+button {
+  background: rgb(255, 161, 92);
+  border: none;
+  width: 200px;
+  padding: 1rem;
+  color: black;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 0.2rem;
 }
 
-.message{
-padding-top: 10px;
+button:hover{
+  background-color: #FF6D15;
+  transition: 1s;
 }
 
-.half-width p{
-  margin: 0px;
+button:active{
+  background-color: #FF6D15;
 }
 
+
+
+label {
+  display: block;
+  margin-top: 1rem;
+  color: rgb(0, 0, 0);
+}
+
+label p{
+  font-size: 13px;
+}
+
+.form-error {
+  display: none;
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 2px;
+}
+
+#message {
+  padding: 50px;
+}
 .contact-info{
-margin-top: 40px;
-margin-left: 8px;
-}
+  margin-top: 40px;
+  }
+  
 
-.form-contact {
-padding-top: 10px;
-display: inline-block;
-margin-left: auto;
-margin-right: auto;
-text-align: left;
-}
-
-.form-wrapper-contact {
-display: block;
-text-align: center;
-}
+  form button{
+    text-align: center;
+    left: 8%;
+    position: relative;
+  }
 

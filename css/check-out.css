@@ -16,9 +16,23 @@
   box-sizing: border-box;
 }
 
-.product-img-checkout{
-  display: none;
-}
 
+.form-checkout{
+    padding: 2em;
+    background: #ebebeb;
+  }
 
+  .img-checkout{
+      width: 50%;
+      margin: 0px auto;
+      display: block;
+  }
+
+  .flex-checkout {
+    margin-top: 10px;
+  }
+  
+  .form-checkout label{
+    font-size: 14px;
+  }
 
