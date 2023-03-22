@@ -1,5 +1,10 @@
  /*checkout-succsess*/
+
  
+ .main-succsess{
+  margin-top: 130px;
+ }
+
  .fa-circle-check{
   position: static;
   text-align: center;
@@ -27,5 +32,5 @@
 }
 
 .form-wrapper-succsess {
-  margin-top: 90px;
+  margin-top: 0px;
 }

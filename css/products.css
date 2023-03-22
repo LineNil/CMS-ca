@@ -117,6 +117,9 @@ a:hover{
   justify-content: space-between;
 }
 
+.fa-cart-shopping{
+}
+
 .fa-cart-shopping:hover{
   color: black;
 }
