@@ -19,7 +19,7 @@
 
   .img-checkout{
     max-width: 15%;
-    height: fit-content;
+    height: auto;
     margin-top: 16px;
     display: flex;
     justify-content: center;
