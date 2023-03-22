@@ -25,7 +25,7 @@
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
   </script>
   </head>
-  <body>
+  <body class="body-purchase">
     <header>
       <label class="hamburger" for="hamburger-menu"><i class="fas fa-bars"></i></label>
       <input class="checkbox" type="checkbox" id="hamburger-menu" />
@@ -38,7 +38,7 @@
            <li><a href="products.html">Products</a></li>
            <li><a href="contact.html">Contact</a></li>
            <li><a href="about.html">About</a></li>
-           <li><a href="Check-out.html" class="active">Cart</a></li>
+           <li><a href="Check-out.html">Cart</a></li>
         </ul>
       </nav>
     </header>
@@ -48,50 +48,7 @@
       <div>
         <a href="index.html"> <i class="fa-solid fa-circle-arrow-left"></i></a>
       </div>
-    <main class="">
-      <section class="flex-container-cart">
-        <section class="flex-checkout flex-item">
-          <img class="img-checkout" src="images/Rainydays_Jacket12.png" alt="storm">
-          <div class="flex-text">
-            <div class="checkout-name">
-              <p>Outdoor jacket - only you</p>
-              <div class="flex-item-nr"> 
-                <p class="item-nr">ItemNr 468392</p>
-                <p>| Navy blue<p>
-              </div>
-            </div>
-            <div>
-              <p class="Checkout-price">NOK 699</p>
-            </div>
-          </div>
-        </section>
-  
-        <section class="total-block">
-          <div class="price-total">
-            <p>Shopping cart</p>
-            <p class="price-cart">NOK 799</p>
-          </div>
-              <div class="price-total">
-                <p>Shipping</p>
-                <p class="price-cart">NOK 99</p>
-              </div>
-              <div class="price-total price-total-sum">
-                <p>Total</p>
-                <p class="price-cart">NOK 898</p>
-              </div>
-              <div>
-                <a href="purchase-form.html" class="cta cta-checkout">Purchase</a>
-              </div>
-            
-          
-        </section>
-  
-      </section>
-
-
-      <div 
-        class="line">
-      </div>
+    <main>
       <form class="form-checkout flex-item" method="POST">
         <div class="full-width">
           <label for="name">Full Name</label>
@@ -128,7 +85,7 @@
 
     </div>
     </main>
-      <footer>
+      <footer class="footer-purchase">
         <p class="copyright">Copyright &copy;</p>
         <div class="pay-methode">
           <i class="fa-brands fa-cc-paypal"></i>

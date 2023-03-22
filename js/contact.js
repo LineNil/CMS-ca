@@ -51,10 +51,18 @@ if (validateEmail(email.value) === true) {
     messageError.style.display = "block";
   }
 
+  //success message (alert)
 
-
-
+  if(firstName.value.trim().length > 0 && secondName.value.trim().length > 0 && email.value.trim().length > 0 && message.value.trim().length > 0 === true){
+    window.alert("success! Your message has been sendt. we will get back to you as soon as possible!");}
+    
+    firstName.value = "";
+    secondName.value = "";
+    email.value = "";
+    message.value = "";
 }
+
+
 
 form.addEventListener("submit", validateForm);
 

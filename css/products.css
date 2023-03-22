@@ -6,8 +6,8 @@ h1 {
   margin: 0px 0px 0px 30px;
 }
 
-.h1-products{
-  margin-top: 25px;
+.h1-products {
+  margin-top: 15px;
 }
 
 
@@ -38,16 +38,46 @@ h1 {
 
 .products img {
   grid-column: -1/1;
-}
-
-img {
+  opacity: 1;
+  display: block;
   width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 
-.products img:hover{
-  transform: scale(1.1);
-  transition: 1s;
+.products-img-text {
+  background-color: transparent;
+  color: white;
+  font-size: 13px;
+  width: 130%;
+  line-height: 1.7;
 }
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.container:hover .products-img {
+  opacity: 0.3;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); 
+}
+
+.container {
+  position: relative;
+  width: 137%;
+  background-color: black;
+}
+
 
 a:hover{
   color: rgb(76, 95, 85);
@@ -80,4 +110,13 @@ a:hover{
 
 .products h2{
   font-size: 0.7em;
+}
+
+.flex-price-cart{
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-cart-shopping:hover{
+  color: black;
 }

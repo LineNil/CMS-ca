@@ -1,11 +1,5 @@
 /*Check out*/
 
-.flex-text {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 70px;
-}
-
 .cta-checkout{
   margin: 20px auto;
 }
@@ -18,21 +12,89 @@
 
 
 .form-checkout{
-    padding: 2em;
-    background: #ebebeb;
+    background: white;
+    margin: 0px auto;
+    padding: 30px 0px;
   }
 
   .img-checkout{
-      width: 50%;
-      margin: 0px auto;
-      display: block;
+    display: block;
+    max-width: 15%;
+    height: fit-content;
   }
 
   .flex-checkout {
-    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 20px;
+    margin: 0px;
+    width: 100%;
   }
   
   .form-checkout label{
     font-size: 14px;
   }
 
+.item-nr{
+  font-size: 10px;
+  margin-top: 20px;
+}
+
+.flex-item-nr{
+  display: flex;
+  flex-direction: row;
+  column-gap: 7px;
+}
+
+
+.flex-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.Checkout-price{
+  display: flex;
+  flex-direction: row;
+  margin: 67px 0px 16px 0px;
+}
+
+.total-block{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  padding: 50px;
+}
+
+.price-total{
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-total-sum{
+  font-weight: bold;
+  font-size: 20px;
+  border-top: 2px solid #e3e3e3;
+  padding-top: 22px;
+  margin-top: 15px;
+}
+
+.flex-container-cart{
+  display: flex;
+  gap: 40px;
+  margin: 0px;
+  flex-direction: column;
+}
+
+.checkout-name{
+  padding: 0px 0px 0px 25px;
+}
+
+.footer-purchase{
+  margin-top: 30px;
+}
+
+.body-purchase{
+  min-height: 0vh;
+}

@@ -92,15 +92,14 @@ img{
 body{
   margin: 0px;
   min-height: 100vh;
-  background-color: #f4f4f4;
+  background-color: #f9f9f9f1;
 }
 
 header{
   position: fixed;
   display: flex;
-  border-bottom: 1px solid black;
   flex-direction: column;
-  background-color: #f4f4f4;
+  background-color: #f9f9f9f1;
   width: 100%;
   top: 0px;
   z-index: 1;
@@ -109,7 +108,7 @@ header{
 .fa-circle-arrow-left{
   font-weight: 900;
   padding-left: 15px;
-  color: rgb(209, 209, 209);
+  color: rgb(134, 134, 134);
   margin: 0px 0px 0px 20px;
   font-size: 1.2em;
   padding: 17px 0px;
@@ -146,7 +145,7 @@ nav {
   display: none;
   flex-direction: column;
   list-style-type: none;
-  background-color: #f4f4f4;
+  background-color: #f9f9f9f1;
   justify-content: center;
   gap: 20px;
 }
@@ -248,7 +247,7 @@ footer{
 
 form > * {
   max-width: 100%;
-  padding: 0 8px;
+  padding: 0 40px;
 }
 
 input{

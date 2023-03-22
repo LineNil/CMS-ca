@@ -58,7 +58,7 @@ nav a{
   .flex-item{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 0px 20px 150px 0px;
   }
 
   body{
@@ -137,6 +137,15 @@ nav a{
   .jackets{
     margin-top: 200px;
   }
+
+  .container{
+    width: 110%;
+  }
+
+  .h1-products{
+    margin-top: 25px;
+  }
+  
 
   /*product*/
   .flex-item-text{
@@ -217,13 +226,12 @@ nav a{
   font-size: 1.4em;
   padding: 0px;
   height: 20%;
-  border-radius: 1rem;
+  margin: 0px auto;
 }
 
 .flex-text > *{
   font-size: 1em;
-  padding: 15px 40px;
-
+  padding: 15px 100px 70px 25px;
 }
 
 .cta-checkout {
@@ -232,11 +240,33 @@ nav a{
   padding: 15px 40px;
 }
 
-
-
 input{
   padding: 10px;
 }
+
+.flex-container-cart{
+  flex-direction: row;
+  margin: 50px;
+}
+
+.flex-checkout{
+  width: 60%;
+  padding: 50px 0px 20px 50px;
+  margin-bottom: 320px;
+}
+
+.checkout-price{
+  margin: 16px 0px;
+}
+
+.checkout-name{
+  padding-right: 20px
+}
+
+.total-block{
+  width: 33%;
+}
+
 /*checkout-succsess*/
 
 .cta-succsess {
