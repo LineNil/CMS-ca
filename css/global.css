@@ -93,6 +93,7 @@ body{
   margin: 0px;
   min-height: 100vh;
   background-color: #f9f9f9f1;
+  overflow-x: hidden;
 }
 
 header{

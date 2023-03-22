@@ -18,9 +18,11 @@
   }
 
   .img-checkout{
-    display: block;
     max-width: 15%;
     height: fit-content;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
   }
 
   .flex-checkout {
