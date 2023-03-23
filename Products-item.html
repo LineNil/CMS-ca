@@ -5,89 +5,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Our top selling Shell jacket" />
     <title>RainyDays | Product</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">  
-    <link href="css/global.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/global.css" rel="stylesheet" />
     <link href="css/products-item.css" rel="stylesheet" />
-    <link href="css/media.css" rel="stylesheet"/>
-    <link href="https://fontawesome.com/icons/bars?s=solid&f=classic" rel="hamburger-menu"/>
-    <link href="https://fontawesome.com/icons/badge-check?s=light&f=classic" rel="check-mark"/>
-    <script src="https://kit.fontawesome.com/681646004f.js" crossorigin="anonymous"></script>
+    <link href="css/media.css" rel="stylesheet" />
+    <link
+      href="https://fontawesome.com/icons/bars?s=solid&f=classic"
+      rel="hamburger-menu"
+    />
+    <link
+      href="https://fontawesome.com/icons/badge-check?s=light&f=classic"
+      rel="check-mark"
+    />
+    <script
+      src="https://kit.fontawesome.com/681646004f.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Hotjar Tracking Code for https://comfy-vacherin-85b853.netlify.app -->
     <script>
-      (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:3388685,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-  </script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3388685, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
   </head>
   <body>
     <header>
-      <label class="hamburger" for="hamburger-menu"><i class="fas fa-bars"></i></label>
+      <label class="hamburger" for="hamburger-menu"
+        ><i class="fas fa-bars"></i
+      ></label>
       <input class="checkbox" type="checkbox" id="hamburger-menu" />
       <a href="index.html" class="logo">
-      <img class="logo-img" src="images/RainyDays_Logo.png" alt="Logo for RainyDays" />
+        <img
+          class="logo-img"
+          src="images/RainyDays_Logo.png"
+          alt="Logo for RainyDays"
+        />
       </a>
       <nav>
         <ul>
-           <li><a href="index.html">Home</a></li>
-           <li><a href="products.html" class="active">Products</a></li>
-           <li><a href="contact.html">Contact</a></li>
-           <li><a href="about.html">About</a></li>
-           <li><a href="Check-out.html">Cart</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="products.html" class="dropbtn active">Products</a>
+            <div class="dropdown-content">
+              <a href="Products.html">Men's</a>
+              <a href="Products.html">Women's</a>
+              <a href="Products.html">Kid's</a>
+            </div>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="Check-out.html">Cart</a></li>
         </ul>
       </nav>
     </header>
-
-      <main class="form-wrapper-hight flex-item hight-item">
-        <div>
-          <a href="Products.html"> <i class="fa-solid fa-circle-arrow-left"></i></a>
-        </div>
-        <section>
-          <div class="item">
-            <img src="images/Rainydays_Jacket12.png" alt="storm">
-            <div class="products flex-item-text">
-              <h2>StormShield</h2>
-              <div class="flex-price">
-                <h3>Outdoor jacket - only you</h3> 
-                <p>NOK 699</p>
+    <main class="form-wrapper-hight flex-item hight-item">
+      <div>
+        <a href="Products.html">
+          <i class="fa-solid fa-circle-arrow-left"></i
+        ></a>
+      </div>
+      <section>
+        <div class="item">
+          <img src="images/Rainydays_Jacket12.png" alt="storm" />
+          <div class="products flex-item-text">
+            <h2>StormShield</h2>
+            <div class="flex-price">
+              <h3>Outdoor jacket - only you</h3>
+              <p>NOK 699</p>
+            </div>
+            <p class="item-nr">ItemNr 468392</p>
+            <a class="cta-item" href="Check-out.html">Buy now</a>
+            <div class="info-bulk">
+              <div>
+                <i class="fa-solid fa-check"></i>
+                <p>Free shipping over NOK 899</p>
               </div>
-              <p class="item-nr">ItemNr 468392</p>
-              <a class="cta-item" href="Check-out.html">Buy now</a>
-              <div class="info-bulk">
-                <div>
-                  <i class="fa-solid fa-check"></i>
-                  <p>Free shipping over NOK 899</p>
-                </div>
-                <div>
-                  <i class="fa-solid fa-check"></i>
-                  <p>Free climate-compensated delivery</p>
-                </div>
-                <div>
-                  <i class="fa-solid fa-check"></i>
-                  <p>Delivered within 2-4 working days</p>
-                </div>
+              <div>
+                <i class="fa-solid fa-check"></i>
+                <p>Free climate-compensated delivery</p>
+              </div>
+              <div>
+                <i class="fa-solid fa-check"></i>
+                <p>Delivered within 2-4 working days</p>
               </div>
             </div>
           </div>
-          <div class="product-info">
-            <h3>About The Product:</h3>
-            <p>Material: 94% Polyester, 6% Elastane</p>
-            <p>One of our best-selling 3-layer shell jackets. Long ventilation zippers under the sleeves and mesh front pockets ensure optimum breathability and allow you to regulate the temperature depending on your activity level.</p>
-          </div>
-        </section>
-      </main>
-      <footer>
-        <p class="copyright">Copyright &copy;</p>
-        <div class="pay-methode">
-          <i class="fa-brands fa-cc-paypal"></i>
-          <i class="fa-brands fa-cc-apple-pay"></i>
-          <i class="fa-brands fa-cc-visa"></i>
         </div>
-      </footer>   
+        <div class="product-info">
+          <h3>About The Product:</h3>
+          <p>Material: 94% Polyester, 6% Elastane</p>
+          <p>
+            One of our best-selling 3-layer shell jackets. Long ventilation
+            zippers under the sleeves and mesh front pockets ensure optimum
+            breathability and allow you to regulate the temperature depending on
+            your activity level.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p class="copyright">Copyright &copy;</p>
+      <div class="pay-methode">
+        <i class="fa-brands fa-cc-paypal"></i>
+        <i class="fa-brands fa-cc-apple-pay"></i>
+        <i class="fa-brands fa-cc-visa"></i>
+      </div>
+    </footer>
   </body>
+</html>

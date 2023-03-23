@@ -80,12 +80,62 @@ nav a{
     max-width: 400px;
   }
 
+  
+/*drop down menu*/
 
-
-  .half-width,
-  .full-width{
-    padding-top: 30px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
+
+li {
+  float: left;
+}
+
+li a,  .dropbtn{
+  display: inline-block;
+  text-align: center;
+  padding: 9px 16px;
+  text-decoration: none;
+  transition: 1s;
+}
+
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropbtn::after {
+  padding-left: 5px;
+}
+
+
 
   /*index*/
 
@@ -207,12 +257,17 @@ nav a{
   }
 
   form button {
-    left: 33%;
+    left: 36%;
+    height: 50px;
   }
 
   .top-text{
     margin-top: 136px;
     font-size: 25px;
+  }
+
+  form > * {
+    padding: 0 40px;
   }
 
 /*checkout*/
@@ -235,7 +290,7 @@ nav a{
 }
 
 .cta-checkout {
-  margin-top: 35px;
+  margin: 30px 0px 40px 0px;
   font-size: 16px;
   padding: 15px 40px;
 }

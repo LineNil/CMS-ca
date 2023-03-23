@@ -5,86 +5,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Checkout page for RainyDays" />
     <title>RainyDays | Checkout</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">  
-    <link href="css/global.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/global.css" rel="stylesheet" />
     <link href="css/check-out.css" rel="stylesheet" />
-    <link href="css/media.css" rel="stylesheet"/>
-    <link href="https://fontawesome.com/icons/bars?s=solid&f=classic" rel="hamburger-menu"/>
-    <script src="https://kit.fontawesome.com/681646004f.js" crossorigin="anonymous"></script>
+    <link href="css/media.css" rel="stylesheet" />
+    <link
+      href="https://fontawesome.com/icons/bars?s=solid&f=classic"
+      rel="hamburger-menu"
+    />
+    <script
+      src="https://kit.fontawesome.com/681646004f.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Hotjar Tracking Code for https://comfy-vacherin-85b853.netlify.app -->
     <script>
-      (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:3388685,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-  </script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3388685, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
   </head>
   <body>
     <header>
-      <label class="hamburger" for="hamburger-menu"><i class="fas fa-bars"></i></label>
+      <label class="hamburger" for="hamburger-menu"
+        ><i class="fas fa-bars"></i
+      ></label>
       <input class="checkbox" type="checkbox" id="hamburger-menu" />
       <a href="index.html" class="logo">
-      <img class="logo-img" src="images/RainyDays_Logo.png" alt="Logo for RainyDays" />
+        <img
+          class="logo-img"
+          src="images/RainyDays_Logo.png"
+          alt="Logo for RainyDays"
+        />
       </a>
       <nav>
         <ul>
-           <li><a href="index.html">Home</a></li>
-           <li><a href="products.html">Products</a></li>
-           <li><a href="contact.html">Contact</a></li>
-           <li><a href="about.html">About</a></li>
-           <li><a href="Check-out.html" class="active">Cart</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="products.html" class="dropbtn">Products</a>
+            <div class="dropdown-content">
+              <a href="Products.html">Men's</a>
+              <a href="Products.html">Women's</a>
+              <a href="Products.html">Kid's</a>
+            </div>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="Check-out.html" class="active">Cart</a></li>
         </ul>
       </nav>
     </header>
-
     <div class="form-wrapper-hight">
       <p class="top-text top-text-checkout">CheckOut</p>
       <div>
         <a href="index.html"> <i class="fa-solid fa-circle-arrow-left"></i></a>
       </div>
-    <main class="">
-      <section class="flex-container-cart">
-        <section class="flex-checkout flex-item">
-          <img class="img-checkout" src="images/Rainydays_Jacket12.png" alt="storm">
-          <div class="flex-text">
-            <div class="checkout-name">
-              <p>Outdoor jacket - only you</p>
-              <div class="flex-item-nr"> 
-                <p class="item-nr">ItemNr 468392</p>
-                <p>| Navy blue<p>
-              </div>
-            </div>
-            <div>
-              <p class="Checkout-price">NOK 699</p>
-            </div>
-          </div>
-        </section>
-  
-        <section class="total-block">
-          <div class="price-total">
-            <p>Shopping cart</p>
-            <p class="price-cart">NOK 799</p>
-          </div>
-              <div class="price-total">
-                <p>Shipping</p>
-                <p class="price-cart">NOK 99</p>
-              </div>
-              <div class="price-total price-total-sum">
-                <p>Total</p>
-                <p class="price-cart">NOK 898</p>
+      <main>
+        <section class="flex-container-cart">
+          <section class="flex-checkout flex-item">
+            <img
+              class="img-checkout"
+              src="images/Rainydays_Jacket12.png"
+              alt="storm"
+            />
+            <div class="flex-text">
+              <div class="checkout-name">
+                <p>Outdoor jacket - only you</p>
+                <div class="flex-item-nr">
+                  <p class="item-nr">ItemNr 468392</p>
+                  <p>| Navy blue</p>
+                </div>
               </div>
               <div>
-                <a href="purchase-form.html" class="cta cta-checkout">Purchase</a>
+                <p class="Checkout-price">NOK 699</p>
               </div>
+            </div>
+          </section>
+          <section class="total-block">
+            <div class="price-total">
+              <p>Shopping cart</p>
+              <p class="price-cart">NOK 799</p>
+            </div>
+            <div class="price-total">
+              <p>Shipping</p>
+              <p class="price-cart">NOK 99</p>
+            </div>
+            <div class="price-total price-total-sum">
+              <p>Total</p>
+              <p class="price-cart">NOK 898</p>
+            </div>
+            <div>
+              <a href="purchase-form.html" class="cta cta-checkout">Purchase</a>
+            </div>
+          </section>
         </section>
-      </section>
-    </main>
+      </main>
       <footer>
         <p class="copyright">Copyright &copy;</p>
         <div class="pay-methode">
@@ -93,5 +122,6 @@
           <i class="fa-brands fa-cc-visa"></i>
         </div>
       </footer>
-  </body>    
-
+    </div>
+  </body>
+</html>

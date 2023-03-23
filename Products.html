@@ -45,9 +45,9 @@
   </head>
   <body>
     <header>
-      <label class="hamburger" for="hamburger-menu"
-        ><i class="fas fa-bars"></i
-      ></label>
+      <label class="hamburger" for="hamburger-menu">
+        <i class="fas fa-bars"></i>
+      </label>
       <input class="checkbox" type="checkbox" id="hamburger-menu" />
       <a href="index.html" class="logo">
         <img
@@ -59,7 +59,14 @@
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="products.html" class="active">Products</a></li>
+          <li class="dropdown">
+            <a href="products.html" class="dropbtn active">Products</a>
+            <div class="dropdown-content">
+              <a href="Products.html">Men's</a>
+              <a href="Products.html">Women's</a>
+              <a href="Products.html">Kid's</a>
+            </div>
+          </li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="Check-out.html">Cart</a></li>

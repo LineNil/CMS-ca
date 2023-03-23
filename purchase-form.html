@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">  
     <link href="css/global.css" rel="stylesheet"/>
     <link href="css/check-out.css" rel="stylesheet" />
+    <link href="css/contact.css" rel="stylesheet" />
     <link href="css/media.css" rel="stylesheet"/>
     <link href="https://fontawesome.com/icons/bars?s=solid&f=classic" rel="hamburger-menu"/>
     <script src="https://kit.fontawesome.com/681646004f.js" crossorigin="anonymous"></script>
@@ -35,57 +36,114 @@
       <nav>
         <ul>
            <li><a href="index.html">Home</a></li>
-           <li><a href="products.html">Products</a></li>
+           <li class="dropdown">
+             <a href="products.html" class="dropbtn">Products</a>
+             <div class="dropdown-content">
+               <a href="Products.html">Men's</a>
+               <a href="Products.html">Women's</a>
+               <a href="Products.html">Kid's</a>
+             </div>          
+           </li>
            <li><a href="contact.html">Contact</a></li>
            <li><a href="about.html">About</a></li>
            <li><a href="Check-out.html">Cart</a></li>
         </ul>
       </nav>
     </header>
-
     <div class="form-wrapper-hight">
       <p class="top-text top-text-checkout">CheckOut</p>
       <div>
         <a href="index.html"> <i class="fa-solid fa-circle-arrow-left"></i></a>
       </div>
-    <main>
-      <form class="form-checkout flex-item" method="POST">
-        <div class="full-width">
-          <label for="name">Full Name</label>
-          <input type="text" id="name" name="name" placeholder="Ola Nordmann" required/>
-        </div>
-        <div class="full-width">  
-          <label for="address">Address</label>
-          <input type="text" id="address" name="address" placeholder="Fakeroad nr 9" required/>
-        </div>
-        <div class="half-width">
-          <label for="city">City</label>
-          <input type="text" id="city" name="city" placeholder="Oslo" required/>
-        </div> 
-        <div class="half-width">
-          <label for="postal-code">Postal-code</label>
-          <input type="text" id="postal-code" name="postal-code" placeholder="0000" required/>
-        </div>
-        <div class="full-width"> 
-          <label for="card">Card Number</label>
-          <input type="text" id="card" name="card"  placeholder="1234 5678 9123 4567" required/>
-        </div>
-        <div class="half-width">
-          <label for="expiration-date">MM/YY</label>
-          <input type="text" id="expiration-date" name="expiration-date" placeholder="10/11" required/>
-        </div>
-        <div class="half-width">
-          <label for="cvc">CVC</label>
-          <input type="text" id="cvc" name="cvc" placeholder="000" required/>
-        </div>
-        <div>
-          <a href="Check-out-succsess.html" class="cta cta-checkout">Purchase</a>
-        </div>
-      </form>
-
-    </div>
-    </main>
-      <footer class="footer-purchase">
+      <main>
+        <form id="contactForm"  class="form-checkout flex-item" method="POST">
+          <div class="half-width">
+            <label> 
+              <p>*First name</p>
+              <input name="firstName" id="firstName" placeholder="Julia" />
+            </label>
+            <div class="form-error" id="firstNameError">
+              Please enter your first name
+            </div>
+          </div>
+          <div class="half-width">
+            <label>
+              <p>*Last name</p>
+              <input name="lastName" id="lastName" placeholder="Smith" />
+            </label>
+            <div class="form-error" id="lastNameError">
+              Please enter your last name
+            </div>
+          </div>
+          <div class="full-width">
+            <label>
+              <p>*Address</p>
+              <input name="address" id="address" placeholder="Fakeroad 11" />
+            </label>
+            <div class="form-error" id="addressError">
+              Please enter your address
+            </div>
+          </div>
+          <div class="half-width">
+            <label>
+              <p>*City</p>
+              <input name="city" id="city" placeholder="Oslo"/>
+            </label>
+            <div class="form-error" id="cityError">
+              Please enter city
+            </div>
+          </div>
+          <div class="half-width">
+            <label>
+              <p>*Postal code</p>
+              <input name="postalCode" id="postalCode" placeholder="1143" />
+            </label>
+            <div class="form-error" id="postalCodeError">
+              Please enter postal code
+            </div>
+          </div>
+          <div class="full-width">
+            <label>
+              <p>*Card number</p>
+              <input name="cardNr" id="cardNr" placeholder="**** **** **** ****" />
+            </label>
+            <div class="form-error" id="cardNrError">
+              Please enter card number
+            </div>
+          </div>
+          <div class="half-width">
+            <label>
+              <p>*CVC</p>
+              <input name="cvc" id="cvc" placeholder="123" />
+            </label>
+            <div class="form-error" id="cvcError">
+              Please enter CVC
+            </div>
+          </div>          
+          <div class="half-width">
+            <label>
+              <p>*MM/YY</p>
+              <input name="mmyy" id="mmyy" placeholder="10/01" />
+            </label>
+            <div class="form-error" id="mmyyError">
+              Please enter expiration date
+            </div>
+          </div>          
+          <button class="cta cta-checkout">Check out</button>
+        </form>
+        <section class="contact-info">
+          <div class="half-width">
+            <p>Rainy Days</p>
+            <p>false address 13</p>
+            <p>N-1234 Oslo</p>
+          </div>
+          <div class="half-width">
+            <p>Org.nr. 123,456,789</p>
+            <p>Phone: +47 00 00 00 00</p>
+          </div>
+        </section>
+      </main>
+      <footer>
         <p class="copyright">Copyright &copy;</p>
         <div class="pay-methode">
           <i class="fa-brands fa-cc-paypal"></i>
@@ -93,5 +151,7 @@
           <i class="fa-brands fa-cc-visa"></i>
         </div>
       </footer>
-  </body>    
-
+      <script src="js/checkout.js"></script>
+    </body>
+  </html>
+  

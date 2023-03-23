@@ -7,7 +7,7 @@ body {
 }
 
 main{
-  padding: 20px 40px;
+  padding: 0px;
 }
 
 
@@ -71,12 +71,13 @@ label p{
 
 .contact-info{
   margin-top: 40px;
+  margin-left: 32px;
   }
   
 
   form button{
     text-align: center;
-    left: 8%;
+    left: 18%;
     position: relative;
   }
 
