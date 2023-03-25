@@ -29,6 +29,6 @@
 .about-text {
   font-size: 1em;
   width: 100%;
-  text-align: center;
   line-height: 1.7;
+  margin: 25px;
 }
