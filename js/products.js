@@ -6,19 +6,33 @@ document.title = newPageTitle;
 const productsUrl = "http://rainydays.local/wp-json/wc/store/products";
 
 const productContainer = document.querySelector(".product-list");
+const loader = document.querySelector(".loader");
+
+
+function showLoader(){
+  loader.classList.remove("hidden")
+}
+
+function hideLoader(){
+  loader.classList.add("hidden")
+}
+
 
 async function makeApiCall() {
+
   const response = await fetch(productsUrl);
-  const results = await response.json();
-  return results
+  return await response.json();
+
 }
 
 
 async function generateHTML() {
+
   const results = await makeApiCall()
   results.forEach((result) => {
     createProduct(result)
   })
+
 }
 
 generateHTML();
@@ -26,9 +40,11 @@ generateHTML();
 
 
 function createProduct(result = {}) {
+  showLoader();
+
   const productAnchorWrapper = document.createElement("a");
   productAnchorWrapper.classList.add("a-products");
-  productAnchorWrapper.href = "/html-css-ca/Products-item.html?id=" + id;
+  productAnchorWrapper.href = "Products-item.html?id=" + result.id;
 
   const productsDiv = document.createElement("div");
   productsDiv.classList.add("products");
@@ -53,7 +69,7 @@ function createProduct(result = {}) {
   containerDiv.appendChild(productImg);
 
   const productTitle = document.createElement("h2");
-  productTitle.innerText = result.name;
+  productTitle.innerText = "StormShield";
   productsDiv.appendChild(productTitle);
 
   const productTitle2 = document.createElement("h3");
@@ -68,9 +84,15 @@ function createProduct(result = {}) {
   productPrice.innerText = "NOK" + " " + result.prices.price;
   productsCartDiv.appendChild(productPrice);
 
+
+
+//not working!!?
   const productCart = document.createElement("p");
   productCart.classList.add = ("fa-solid fa-cart-shopping");
+  console.log(productCart)
   productsCartDiv.appendChild(productCart);
 
   productContainer.appendChild(productAnchorWrapper);
+
+  hideLoader();
 };

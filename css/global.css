@@ -1,4 +1,43 @@
 
+/*loader*/
+
+.loader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  opacity: 0.75s;
+  visibility: 0.75s;
+}
+
+.hidden{
+display: none;
+}
+
+
+.loader::after{
+  content: "";
+  width: 80px;
+  height: 80px;
+  border: 10px dotted #eee;
+  border-top-color: rgb(255, 161, 92);
+  border-radius: 50%;
+  animation: loading 0.99s ease infinite;
+} 
+
+@keyframes loading{
+  from{
+    transform: rotate(0turn);
+  }
+  to{
+    transform: rotate(1turn);
+  }
+}
 
 
 

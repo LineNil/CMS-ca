@@ -140,6 +140,23 @@ li.dropdown {
 
   /*index*/
 
+  .featured-products{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    padding: 50px 100px;
+    background-color: #8080800d;
+    margin: 25px 50px;
+  }
+
+  .featured-brand {
+    margin-left: 0px;
+  }
+
+  .name-price-div p{
+    margin: 0px;
+  }
+
   .main-index {
     margin-top: 134px;
   }

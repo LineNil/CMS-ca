@@ -2,6 +2,44 @@
 
 /*index*/
 
+
+/*featured*/
+
+
+
+.featured-products-h{
+  text-align: center;
+  font-size: 2rem;
+}
+
+
+
+.featured-img{
+ display: flex;
+}
+
+.featured-name{
+  display: flex;
+  font-size: 1.3em;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.featured-div{
+  width: 30%;
+}
+
+.featured-brand {
+  font-size: 0.9em;
+  margin-left: 10px;
+}
+
+.name-price-div{
+  margin-left: 10px;
+  margin-bottom: 40px;
+}
+
+
 main {
   margin-top: 90px;
 }

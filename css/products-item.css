@@ -1,5 +1,16 @@
 /*product-item*/
 
+
+
+
+
+
+
+
+
+
+
+
 /*main{
   margin-top: 95px;
 }
@@ -64,11 +75,12 @@ h3{
   background-color: rgb(76, 95, 85);
 }
 
-.products .item-nr{
+.products h4{
   font-size: 10px;
   font-weight: inherit;
   margin: -13px 0px 20px 2px;
 }
+
 
 .info-bulk p{
   color: black;
@@ -76,14 +88,14 @@ h3{
   padding-left: 10px;
 }
 .info-bulk {
-  display: flex;
-  flex-direction: column;
   background-color: #eee;
+  padding: 25px 20px;
 }
 
 .info-bulk div{
   display: flex;
   justify-content: left;
+  flex-direction: column;
 }
 
 .fa-solid.fa-check {
