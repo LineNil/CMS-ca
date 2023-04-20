@@ -3,7 +3,7 @@
 const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
 const id = params.get("id");
-const productsUrl = "http://rainydays.local/wp-json/wc/store/products/" + id;
+const productsUrl = "https://line-nilsen.no/wordpress/wp-json/wc/store/products" + id;
 const productContainer = document.querySelector(".productContainer");
 const loader = document.querySelector(".loader");
 

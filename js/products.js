@@ -3,7 +3,7 @@ newPageTitle = 'Products';
 document.title = newPageTitle;
 
 
-const productsUrl = "http://rainydays.local/wp-json/wc/store/products";
+const productsUrl = "https://line-nilsen.no/wordpress/wp-json/wc/store/products";
 
 const productContainer = document.querySelector(".product-list");
 const loader = document.querySelector(".loader");
