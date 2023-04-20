@@ -1,4 +1,4 @@
-const featuredUrl = "http://rainydays.local/wp-json/wc/store/products?featured=true";
+const featuredUrl = "https://rainydays.local/wp-json/wc/store/products?featured=true";
 const featuredProducts = document.querySelector(".featured-products");
 const loader = document.querySelector(".loader");
 
