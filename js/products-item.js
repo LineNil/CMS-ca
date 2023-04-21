@@ -109,9 +109,7 @@ async function createHTML(){
   about.innerText = "About The Product:";
   productInfo.appendChild(about);
     
-  const material = document.createElement("p");
-  material.innerText = "Material: 94% Polyester, 6% Elastane";
-  productInfo.appendChild(material);
+
     
   const description = document.createElement("p");
   description.innerText = result.description.replace(/<\/?[^>]+(>|$)/g, "");
