@@ -1,23 +1,39 @@
-RainyDays Course Assigment
+# cross-course project
 
-sources:
+Website: 	https://comfy-vacherin-85b853.netlify.app/index.html
 
-https://stackoverflow.com/
 
-https://developer.mozilla.org/en-US/
+## Description
 
-https://noroff-content.gitlab.io/feu/html-css/module-1.html
-the modules with all of the topics.
+The website is an online destination exclusively catering to jackets. It offers a diverse collection of stylish and functional outerwear options for both kids, men and women.
 
-Images from https://unsplash.com/
+## Built With
 
-Good help from teachers and students.
+- Vanilla JavaScript
+- HTML
+- CSS
 
-Peer feedback
 
-inspirasjon:
-the Guitar website (in the modules)
+## Getting Started
 
-Netlify: https://comfy-vacherin-85b853.netlify.app/
+Run trough netlify link: https://comfy-vacherin-85b853.netlify.app/index.html
 
-github: https://github.com/LineNil/html-css-ca
+or clone github repo link: https://github.com/LineNil/CMS-ca
+
+
+## Contact
+
+Facebook: Line Forslund Nilsen
+
+Instagram: linefnilsen
+
+Mail: lineforslund@hotmail.com
+
+
+## Acknowledgments
+
+https://fontawesome.com/
+
+https://unsplash.com/
+
+Fellow students and teachers.
