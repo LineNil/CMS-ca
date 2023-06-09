@@ -1,4 +1,4 @@
-# cross-course project
+# cross-course project | RainyDays
 
 Website: 	https://comfy-vacherin-85b853.netlify.app/index.html
 
